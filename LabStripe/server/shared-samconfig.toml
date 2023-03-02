@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "serverless-saas"
+s3_bucket = "sam-bootstrap-bucket-b11b53ef-fffc-4b8f-abf6-62c8a4f273fe"
+s3_prefix = "serverless-saas"
+region = "us-west-2"
+confirm_changeset = false
+capabilities = "CAPABILITY_NAMED_IAM CAPABILITY_AUTO_EXPAND"
+cached="true"
+parallel="true"
