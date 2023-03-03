@@ -40,8 +40,6 @@ export class RegisterComponent implements OnInit {
         console.log(subscription);
         this.tenantForm.enable();
         // Add subscription data line below this
-
-
         
         this.tenantForm.controls['tenantEmail'].disable();
         this.tenantForm.controls['tenantTier'].disable();
