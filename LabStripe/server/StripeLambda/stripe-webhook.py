@@ -27,7 +27,7 @@ def update_tenant(event, context):
         res = secrets.get_secret_value(SecretId=secret_key)
         stripe.api_key = res['SecretString']
 
-        # Uncomment all the below lines add the correct method to retrieve the updated product
+        # Uncomment all the below lines to update dynamodb
         # product = stripe.Product.retrieve(productID)
 
         # response = table_tenant_details.query(
