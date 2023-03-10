@@ -48,6 +48,6 @@ def update_tenant(event, context):
         #         ReturnValues="UPDATED_NEW"
         #         )             
 
-        #    return utils.create_success_response("Tenant Updated")
+        # return utils.create_success_response("Tenant Updated")
     else:
         return utils.create_unauthorized_response()
